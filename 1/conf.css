@@ -1,0 +1,113 @@
+* {
+    background-color: #0e0d68;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: whitesmoke;
+    color:#0e0d68;
+    padding-left: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color:#fcb900 ;
+    padding: 10px;
+    text-transform: capitalize;
+    color: white;
+}
+.p {
+    background-color: #fcb900;
+    text-transform: capitalize;
+    color: rgb(99, 7, 122);
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #af46cf;
+}
+section {
+    padding: 20px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    margin-top: -1px;
+   width: 97.8%;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+.image {
+    width: 60%;
+    height: 80px;
+    margin-left: -2%;
+    background-color: #fcb900;
+}
+
+.h{
+   margin-top: 2.5%;
+} 
+.title {
+    padding: 0 50px 0 10px;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: purple;
+}
+.container {
+    /* Set the container to the desired size */
+    width: 100%;
+    height: 100vh;
+  
+    /* Center the content */
+    position: relative; /* Required for positioning the overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container img {
+    /* Set the image to fit the container */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .text-overlay {
+    /* Position the overlay above the image */
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(229, 12, 236, 0.2); /* Add a semi-transparent background to improve text readability */
+  }
+  
+  .text-overlay .inter{
+    color: rgba(9, 9, 87, 0.76); /* Set the text color */
+    font-size: 18px;
+    background-color: #fcb900;
+    font-weight: bold;
+  }
+  .text-overlay .compu {
+    color: whitesmoke;
+    background-color: rgba(9, 9, 87, 0.76);
+    font-size: 35px;
+    font-weight: 100;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -15%;
+  }
+
+
+  
